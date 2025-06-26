@@ -5,47 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OverheadProjectors24</title>
     <style>
-        /* Basic Reset & Body Styles */
         body {
-            font-family: 'Courier New', Courier, monospace; /* Retro-feeling font */
-            background-color: #f0e6d2; /* Muted, old-paper background */
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f0e6d2;
             color: #333;
             margin: 0;
             padding: 20px;
             line-height: 1.6;
         }
 
-        /* Container for content */
         .container {
             max-width: 960px;
             margin: 20px auto;
-            background-color: #ffffff; /* White content area */
-            border: 2px solid #666; /* Simple border */
-            box-shadow: 8px 8px 0px 0px #aaa; /* Retro shadow effect */
+            background-color: #ffffff;
+            border: 2px solid #666;
+            box-shadow: 8px 8px 0px 0px #aaa;
             padding: 30px;
-            position: relative; /* For sticky notes or other future elements */
+            position: relative;
         }
 
-        /* Header Styles */
         h1 {
-            color: #8b0000; /* Dark red for a punchy retro feel */
+            color: #8b0000;
             text-align: center;
-            font-family: 'Georgia', serif; /* Classic serif font */
+            font-family: 'Georgia', serif;
             font-size: 2.8em;
             margin-bottom: 20px;
-            text-shadow: 2px 2px #ccc; /* Simple text shadow */
+            text-shadow: 2px 2px #ccc;
         }
 
         h2 {
             color: #4a4a4a;
             font-size: 1.8em;
-            border-bottom: 1px dashed #999; /* Dashed line for retro separation */
+            border-bottom: 1px dashed #999;
             padding-bottom: 5px;
             margin-top: 30px;
             margin-bottom: 15px;
         }
 
-        /* Navigation Styles */
         .nav {
             text-align: center;
             margin-bottom: 30px;
@@ -56,7 +52,7 @@
         }
 
         .nav a {
-            color: #00008b; /* Dark blue for links */
+            color: #00008b;
             text-decoration: none;
             padding: 0 15px;
             font-weight: bold;
@@ -64,15 +60,14 @@
         }
 
         .nav a:hover {
-            color: #d10000; /* Red on hover */
+            color: #d10000;
             text-decoration: underline;
         }
 
-        /* Product Grid */
         .product-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 40px; /* More space for retro feel */
+            gap: 40px;
             margin-top: 30px;
         }
 
@@ -81,16 +76,16 @@
             border: 1px solid #ccc;
             padding: 20px;
             text-align: center;
-            box-shadow: 4px 4px 0px 0px #bbb; /* Smaller shadow for items */
+            box-shadow: 4px 4px 0px 0px #bbb;
             transition: transform 0.2s;
         }
 
         .product-item:hover {
-            transform: translateY(-5px); /* Slight lift on hover */
+            transform: translateY(-5px);
         }
 
         .product-item img {
-            max-width: 90%; /* Slightly smaller images for retro look */
+            max-width: 90%;
             height: auto;
             margin-bottom: 15px;
             border: 1px solid #ddd;
@@ -104,13 +99,13 @@
 
         .product-item .price {
             font-size: 1.4em;
-            color: #006400; /* Dark green for prices */
+            color: #006400;
             font-weight: bold;
             margin-bottom: 15px;
         }
 
         .product-item button {
-            background-color: #008000; /* Green button */
+            background-color: #008000;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -125,13 +120,11 @@
             background-color: #005000;
         }
 
-        /* About & Contact Sections */
         .section-content {
             margin-bottom: 30px;
             padding: 0 10px;
         }
 
-        /* Footer Styles */
         .footer {
             text-align: center;
             margin-top: 50px;
