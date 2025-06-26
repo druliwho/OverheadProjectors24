@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OverheadProjectors24</title>
+    <style>
+        /* Basic Reset & Body Styles */
+        body {
+            font-family: 'Courier New', Courier, monospace; /* Retro-feeling font */
+            background-color: #f0e6d2; /* Muted, old-paper background */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* Container for content */
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: #ffffff; /* White content area */
+            border: 2px solid #666; /* Simple border */
+            box-shadow: 8px 8px 0px 0px #aaa; /* Retro shadow effect */
+            padding: 30px;
+            position: relative; /* For sticky notes or other future elements */
+        }
+
+        /* Header Styles */
+        h1 {
+            color: #8b0000; /* Dark red for a punchy retro feel */
+            text-align: center;
+            font-family: 'Georgia', serif; /* Classic serif font */
+            font-size: 2.8em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px #ccc; /* Simple text shadow */
+        }
+
+        h2 {
+            color: #4a4a4a;
+            font-size: 1.8em;
+            border-bottom: 1px dashed #999; /* Dashed line for retro separation */
+            padding-bottom: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        /* Navigation Styles */
+        .nav {
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: #e0e0e0;
+            padding: 10px 0;
+            border-top: 1px solid #999;
+            border-bottom: 1px solid #999;
+        }
+
+        .nav a {
+            color: #00008b; /* Dark blue for links */
+            text-decoration: none;
+            padding: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .nav a:hover {
+            color: #d10000; /* Red on hover */
+            text-decoration: underline;
+        }
+
+        /* Product Grid */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px; /* More space for retro feel */
+            margin-top: 30px;
+        }
+
+        .product-item {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 4px 4px 0px 0px #bbb; /* Smaller shadow for items */
+            transition: transform 0.2s;
+        }
+
+        .product-item:hover {
+            transform: translateY(-5px); /* Slight lift on hover */
+        }
+
+        .product-item img {
+            max-width: 90%; /* Slightly smaller images for retro look */
+            height: auto;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+        }
+
+        .product-item h3 {
+            color: #555;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .product-item .price {
+            font-size: 1.4em;
+            color: #006400; /* Dark green for prices */
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .product-item button {
+            background-color: #008000; /* Green button */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 2px 2px 0px 0px #005000;
+        }
+
+        .product-item button:hover {
+            background-color: #005000;
+        }
+
+        /* About & Contact Sections */
+        .section-content {
+            margin-bottom: 30px;
+            padding: 0 10px;
+        }
+
+        /* Footer Styles */
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px dashed #999;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>OverheadProjectors24</h1>
+        <div class="nav">
+            <a href="#products">Products</a>
+            <a href="#about-us">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <h2 id="products">Our Models</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="https://via.placeholder.com/250x180?text=Classic" alt="Classic Overhead Projector">
+                <h3>OHP Classic 3000</h3>
+                <p>Reliable and robust, perfect for any meeting.</p>
+                <div class="price">€129.00</div>
+                <button>Order Now</button>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/250x180?text=Premium" alt="Premium Overhead Projector">
+                <h3>OHP Pro 9000</h3>
+                <p>Extra bright with advanced features for demanding presentations.</p>
+                <div class="price">€199.00</div>
+                <button>Order Now</button>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/250x180?text=Compact" alt="Compact Overhead Projector">
+                <h3>OHP Air 1500</h3>
+                <p>Light and portable, ideal for on-the-go or smaller rooms.</p>
+                <div class="price">€99.00</div>
+                <button>Order Now</button>
+            </div>
+        </div>
+
+        <h2 id="about-us">About Us</h2>
+        <div class="section-content">
+            <p>Welcome to overhead projectors! We are your source for high-quality, tested overhead projectors that combine the charm of past decades with today's reliability. In a world full of digital screens, we bring back the proven technology that illuminated generations of ideas.</p>
+            <p>Every projector in our range is carefully inspected and cleaned to ensure it's ready for your next presentation, lesson, or creative project. Rediscover the joy of the analog!</p>
+        </div>
+
+        <h2 id="contact">Contact</h2>
+        <div class="section-content">
+            <p>Do you have questions about our products or need assistance? Feel free to contact us!</p>
+            <p>
+                Email: info@st-ursula-gymnasium.de<br>
+                Phone: +49 (0) 211 320056<br>
+                Address: Ritterstraße 16, 40213 Düsseldorf, Germany
+            </p>
+            <p>We look forward to hearing from you!</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 1998 OverheadProjectors24. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
