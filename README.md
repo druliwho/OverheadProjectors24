@@ -1,7 +1,7 @@
 This is a school project.
 All contents of the website are fictitious.
 
-sources and inspiration:
+sources:
 
 https://www.liesegang-tas.de/favorit-master-typ-625.html
 
