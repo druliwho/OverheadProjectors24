@@ -1,4 +1,4 @@
-This is a school project.
+THIS IS A SCHOOL PROJECT!
 All contents of the website are fictitious.
 
 sources:
